@@ -1,0 +1,94 @@
+Visual Style & Aesthetics
+
+Use a soft pastel pink color palette (#f8d7e3, #fce4ec, etc.) with cream textures and subtle doodle/heart patterns to create a romantic, comforting vibe. Pastel pink backgrounds tend to appear calm and welcoming, which suits the Valentine theme.
+
+Apply a retro 8-bit pixel art style for characters (girlfriend with racket, boyfriend) and game graphics. Use a pixelated arcade font such as Press Start 2P for headings and score text, reinforcing the nostalgic arcade feel.
+
+Incorporate heart motifs: floating pixel-hearts in the background and a heart-shaped mask or sprite that slowly rises/fades (implementable via CSS animations). Small animated hearts can float or burst on key events for extra romantic charm.
+
+Use romantic typography for non-game text: e.g., Playfair Display for titles, a cursive font like Pacifico for affectionate script text, and a clean sans-serif like Poppins for body copy.
+
+Layout and Sections
+
+Opening Screen: Full-screen centered card. Background with floating hearts. Heading text “Before we start our story…”, subtext “Tell me your name, beautiful 💌”, and a rounded input field plus a “Start Our Story” button. After the user enters their name and clicks start, transition with a smooth fade to the main page and display the name dynamically in the next section.
+
+Section 1 – Our Beginning 💕: Scrapbook/photo-card style layout. Include a placeholder photo frame with pink-tape graphics on the corners and a soft doodle background. Overlay romantic text using a CSS typewriter effect (letters appear one by one). Add tiny floating heart particles drifting upwards for ambience.
+
+Section 2 – Pixel Badminton Game 🎮🏸: Arcade backdrop (subtle grid) with pixel-boyfriend on right and pixel-girlfriend (left, with a racket). Display the retro pixelated question: “HOW MANY TIMES DID HE MAKE YOU MAD?”. Below, place four large pixel-style buttons: 100, 1000, 10000, and INFINITE 😈. (Buttons should be rounded, high-contrast, in pixel font.)
+
+Section 3 – Things I Love About You 💗: Six floating pastel cards, each containing a cute compliment. Each card should gently rotate or pop on hover. The background can be a soft doodle/heart pattern to match theme.
+
+Section 4 – The Proposal 💌: Layered soft heart-pattern background with a subtle blur/glow. Center a framed image or graphic. Show a large script heading with “[Her Name]…” and below it the question “Will you be my Valentine?”. Provide two buttons: YES 💖 and NO 🙄.
+
+Interactivity & Animations
+
+Badminton Game Actions: When a number button is clicked, animate the girlfriend swinging her racket (using CSS @keyframes) and the shuttlecock flying across to strike the boyfriend. Trigger a funny impact animation (e.g., pixel sparks or stars).
+
+100: One strong smash; boyfriend flies up/out once. Display text “He deserved that.”
+
+1000: Three rapid smashes; boyfriend spins dizzyingly on hit. Show a cartoonish dizzy effect (like little stars circling his head).
+
+10000: Five very fast smashes; include a noticeable screen-shake effect each hit. Then overlay an arcade-style “COMBO x5” text.
+
+INFINITE: Continuous rapid smashes (~3 seconds), making the boyfriend respawn repeatedly with exaggerated effects. Flash big pixel-text “MERCY???” on screen. Finally display “He still loves you though.”
+
+Use CSS transform (rotate/translate) and @keyframes for all movements (swinging racket, flying shuttlecock, flying/spinning boyfriend). For example, a typewriter effect can be achieved by animating an element’s width from 0 to full.
+
+Include a “Madness Level: _” counter that increases with each hit, and a Reset button (“Okay okay I’m sorry 😭”) to stop animations and reset the scene.
+
+Button Effects: The NO button should dodge on hover: use JavaScript to move it to a random position and shrink it slightly each time, so it’s never clickable. The YES button should gently pulse/glow on hover and enlarge slightly. On click, trigger the heart-explosion/confetti effect (with additional floating hearts) and the celebratory message.
+
+Final Celebration: Clicking YES triggers a burst of hearts/sparkles across the screen, and the text “You just made me the happiest boyfriend alive.” Background romantic music swells softly.
+
+Additional Features
+
+Add smooth fade-in scroll animations and subtle sparkle effects near headings for extra charm.
+
+Play a soft romantic instrumental background music, with a visible mute/unmute toggle.
+
+Ensure the page is fully responsive (use flexible layouts, viewport meta, etc.) for mobile devices.
+
+Implement everything in one HTML file (embedded CSS and JS, no external libraries). Use comments in the code to label sections (e.g., /* Section 2: Pixel Game */).
+
+Every feature and animation should work as described to create a cohesive, cute, and playful Valentine’s Day mini-game experience.
+
+Final Prompt Example
+Design and implement a single-page Valentine’s Day web experience with a cute retro gaming theme. The page should have a pastel pink and soft red color palette, cream-textured backgrounds, and delicate heart/doodle patterns. Use Playfair Display for headings, a cursive font (like Pacifico) for script headings, and a clean sans-serif (like Poppins) for body text. Incorporate an 8-bit pixel art style for graphics and UI: use a pixel font (Press Start 2P) for arcade-style text:contentReference[oaicite:6]{index=6}.
+
+
+- **Page 1 (Name Prompt):** Full-screen card with floating heart animations in the background. Heading: “Before we start our story…”, subtext: “Tell me your name, beautiful 💌”, a rounded text input for the name, and a “Start Our Story” button. Once the user submits a name, fade into the main content, and use the entered name in the next sections.
+
+
+- **Section 1 – Our Beginning 💕:** Scrapbook-style section with a framed photo placeholder and pink tape corners. Display romantic intro text with a CSS typewriter effect (letters appear sequentially). Scatter tiny floating heart particles drifting upward.
+
+
+- **Section 2 – Pixel Badminton Game 🎮🏸:** Retro arcade background with a subtle grid. Place a pixel-girlfriend character (left, with racket) and a pixel-boyfriend character (right, looking nervous). Show the question: “HOW MANY TIMES DID HE MAKE YOU MAD?” in pixel font. Provide four large pixel-art buttons labeled “100”, “1000”, “10000”, and “INFINITE 😈”.
+
+
+  - *Interactions:* On clicking a button, animate the girlfriend swinging and the shuttlecock flying toward the boyfriend. Show a comedic hit reaction (boyfriend flying or spinning, with pixel spark effects):
+    - **100:** Single strong smash (one hit, boyfriend knocked away), then display “He deserved that.”
+    - **1000:** Three fast smashes; boyfriend spins with cartoon dizziness.
+    - **10000:** Five very rapid smashes; include a screen-shake effect on each hit. Afterward, display “COMBO x5”.
+    - **INFINITE:** Smash continuously for ~3 seconds, respawning the boyfriend each hit with flashy effects. Flash big “MERCY???” on screen, then end with “He still loves you though.”
+  
+  Include a “Madness Level: ___” counter that increments with each hit, and a reset button (“Okay okay I’m sorry 😭”) to stop and reset.
+
+
+- **Section 3 – Things I Love About You 💗:** Gentle pastel-doodle background. Arrange 6 cute cards (like floating scrapbook cards), each with a sweet compliment. On hover, each card should rotate or scale slightly.
+
+
+- **Section 4 – The Proposal 💌:** Layered soft heart-pattern background with blur/glow. Center a framed image or graphic. Heading: “[Her Name]…” in large script font. Text: “Will you be my Valentine?”. Two buttons: **YES 💖** (pink) and **NO 🙄** (gray).
+  - *Behavior:* The NO button evades the cursor (moves randomly and shrinks on hover). The YES button glows and grows slightly on hover. Clicking YES triggers hearts/sparkles explosion, increases floating hearts, plays music, and shows “You just made me the happiest boyfriend alive.”
+
+
+- **Animations & Effects:** Use CSS keyframes and transforms for all motion (swinging, flying, spinning). For example, animate an element’s width from 0 to full for the typewriter text effect. Create floating heart animations with CSS (opacity and translate). Apply subtle screen-shake on big hits, and sparkling confetti on celebrations.
+
+
+- **Sound & Music:** Add a soft romantic background track with a visible mute toggle.
+
+
+- **Responsiveness:** Ensure mobile-friendly layout (viewport meta, flexible sizing).
+
+
+- **Implementation:** Put all code in one HTML file (inline CSS/JS). Include comments explaining each section and feature.
+

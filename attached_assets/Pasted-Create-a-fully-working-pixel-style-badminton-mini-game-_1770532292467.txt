@@ -1,0 +1,145 @@
+Create a fully working pixel-style badminton mini-game using HTML, CSS, and JavaScript.
+It must be inside a single HTML file with embedded CSS and JS.
+Make it playable and animated.
+
+🎮 Theme:
+
+Cute retro 8-bit pixel aesthetic
+
+Funny exaggerated cartoon animation
+
+Soft romantic Valentine colors (pink arcade vibe)
+
+Not violent — playful and comedic
+
+VISUAL STYLE
+
+Use pixel-art style characters (blocky shapes made with CSS or canvas).
+
+Girlfriend character on left holding badminton racket.
+
+Boyfriend character on right looking nervous.
+
+Pixel shuttlecock in center.
+
+Retro arcade background with subtle grid.
+
+Add small pixel hearts floating.
+
+Add retro text style:
+“HOW MANY TIMES DID HE MAKE YOU MAD?”
+
+INTERACTION OPTIONS
+
+Add 4 large pixel-style buttons:
+
+100
+
+1000
+
+10000
+
+INFINITE 😈
+
+When a button is clicked:
+
+Girlfriend swings racket with animation.
+
+Shuttlecock flies across screen.
+
+Boyfriend gets hit in exaggerated cartoon way.
+
+Boyfriend flies upward or spins.
+
+Funny pixel impact effect appears.
+
+BEHAVIOR PER OPTION
+
+If 100 selected:
+
+One strong smash
+
+Boyfriend flies once
+
+Text appears:
+“He deserved that.”
+
+If 1000 selected:
+
+3 rapid smashes
+
+Boyfriend spins dramatically
+
+Funny dizzy animation
+
+If 10000 selected:
+
+5 fast exaggerated smashes
+
+Screen shake effect
+
+Arcade combo counter appears
+“COMBO x5”
+
+If INFINITE selected:
+
+Continuous rapid smashes for 3 seconds
+
+Boyfriend respawns repeatedly
+
+Over-the-top arcade effects
+
+Flashing pixel text:
+“MERCY???”
+
+Final message:
+“He still loves you though.”
+
+ANIMATION DETAILS
+
+Use CSS keyframes for swing animation.
+
+Use transform and translate for movement.
+
+Add screen shake effect for big hits.
+
+Add arcade pixel sound effect (optional).
+
+Add hit spark animation using small pixel blocks.
+
+EXTRA FEATURES
+
+Add a score counter:
+“Madness Level: ____”
+
+Add Reset button:
+“Okay okay I’m sorry 😭”
+This resets characters and clears effects.
+
+Make everything responsive for mobile.
+
+STYLE REQUIREMENTS
+
+Rounded retro buttons
+
+Pixel font (Press Start 2P or similar)
+
+Pink + soft red color palette
+
+Smooth animation timing
+
+No external libraries
+
+IMPORTANT
+
+Provide complete working code.
+
+Do not omit JavaScript logic.
+
+Make sure animations actually trigger.
+
+All features must function properly.
+
+Use comments explaining sections.
+
+Make it funny, cute, dramatic, and playful — like a mini arcade game inside a romantic website.

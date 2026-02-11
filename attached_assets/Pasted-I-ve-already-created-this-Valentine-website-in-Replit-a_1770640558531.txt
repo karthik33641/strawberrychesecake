@@ -1,0 +1,50 @@
+I’ve already created this Valentine website in Replit and it’s mostly working great. I now need you to make only the following final 3 changes, very carefully — do not alter anything else or regenerate unnecessary parts.
+
+🛠️ SECTION 1: INTRO
+- Change the greeting line from:  
+  “Tell me your name, beautiful 💌”  
+  to:  
+  **“Excuse me miss, may I know your name?”**
+
+🖼️ SECTION 2: OUR BEGINNING
+- Remove the current placeholder image inside the photo frame.
+- Replace it with this new image I'm uploading now:  
+  **[Upload “our beginning” image here]**
+- Keep everything else in this section exactly as is.
+
+🏸 SECTION 3: BADMINTON GAME — RAM EDITION
+- Add a pixel-text label above the boyfriend character: **“RAM”**
+- At the top of the section, change the game title text to:  
+  **“How many times did RAM make you mad? Now beat the shi out of him 😤🏸”**
+- Fix any **glitches, lag, or stutters** in the game.
+- Smooth the animation transitions (swing, shuttle movement, impact).
+- Add more dramatic, funny **pixel-smash animations** when RAM gets hit.
+- Keep everything else as is.
+
+💗 SECTION 4: THINGS I LOVE ABOUT YOU — FINAL TEXT UPDATES
+Replace the following 3 compliment cards exactly:
+1. Change: “The way you laugh at my terrible jokes”  
+   ➜ **“How you have my back no matter what”**
+2. Change: “How you always know exactly what I need”  
+   ➜ **“How you always care about me”**
+3. Change: “Your kindness to everyone you meet”  
+   ➜ **“How you handle me, even when I’m being mean, dumb, or rage-baiting”**
+
+Also:
+- Improve the **floating hearts animation** in this section
+- Make the cards animate with a **smoother entry and hover scale effect**
+- Use a more **romantic or handwritten-style font** for these compliments
+
+💘 FINAL PROPOSAL SECTION
+- After clicking **YES**, add these floating effects:
+  • Chocolate bars
+  • Roses
+  • Hearts
+- Make them float gently across the screen
+- Use my attached image as the final background centerpiece:
+  **[Upload your final Valentine image here]**
+
+DO NOT change anything else outside of these instructions.
+DO NOT regenerate unrelated code or animations.
+
+This is my **final update**. Please execute with precision.

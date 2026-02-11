@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-pixel: "Press Start 2P", cursive;
+  --font-heading: "Playfair Display", serif;
+  --font-script: "Pacifico", cursive;
+  --font-body: "Poppins", sans-serif;
+
+  --color-background: hsl(340 100% 97%);
+  --color-foreground: hsl(340 60% 30%);
+  
+  --color-primary: hsl(340 85% 65%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  
+  --color-secondary: hsl(330 60% 90%);
+  --color-secondary-foreground: hsl(340 60% 40%);
+  
+  --color-accent: hsl(350 100% 88%);
+  --color-accent-foreground: hsl(340 70% 30%);
+  
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(340 60% 30%);
+  
+  --color-muted: hsl(340 30% 90%);
+  --color-muted-foreground: hsl(340 40% 50%);
+  
+  --color-border: hsl(340 40% 85%);
+  --color-input: hsl(340 40% 90%);
+  --color-ring: hsl(340 80% 70%);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-body antialiased text-foreground;
+    background-color: hsl(340 100% 97%);
+    background-image: url("@assets/Romantic_Valentine’s_Day_Seamless_Patterns___Love_&_Heart_Dig_1770535091445.jpeg");
+    background-size: 300px;
+    background-repeat: repeat;
+  }
+  
+  /* Section backgrounds */
+  section:nth-of-type(odd) {
+    background-image: url("@assets/__1770535091442.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  section:nth-of-type(even) {
+    background-image: url("@assets/40+_Cute_Valentine’s_Day_Wallpaper_Ideas___Mixed_Cute_Stuffs_1770535091443.jpeg");
+    background-size: 400px;
+    background-repeat: repeat;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/30 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/50;
+  }
+}
+
+@layer utilities {
+  .text-shadow-pixel {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-pixelated {
+    image-rendering: pixelated;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+}
